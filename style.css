@@ -1,0 +1,22 @@
+/* selector {
+    property: value;
+    border-radius: rounded corners;
+    cursor: gets you to change the cursor to 
+} */
+ /* .element-name and not the tag */
+.subscribe-button {
+    background-color: rgb(255, 17, 77);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 110px;
+    border-radius: 2px;
+    cursor: pointer; 
+}
+.join-button {
+    background-color: azure;
+    color: rgb(0, 162, 191);
+    height: 50px;
+    width: 65px;
+    border-radius: 2px;
+}
