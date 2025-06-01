@@ -3,6 +3,7 @@
     color: beige;
     font-weight: bold;
     font-size: medium;
+    border: none;
     height: 50px;
     width: 150px;
     transition: opacity .15s, height 1s;
@@ -14,4 +15,22 @@
 
 .uber-button:active {
     opacity: .6;
+}
+
+.amazon-cart-button {
+    border: none;
+    background-color: rgb(238, 238, 2);
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    font-size: medium;
+    transition: background-color .15s, opacity .15s;
+}
+
+.amazon-cart-button:hover {
+    background-color: rgb(255, 208, 0);
+}
+
+.amazon-cart-button:active {
+    opacity: .75;
 }
