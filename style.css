@@ -1,7 +1,8 @@
 /* selector: pseudo class {
     property: value;
     border-radius: rounded corners;
-    cursor: gets you to change the cursor to 
+    cursor: gets you to change the cursor to whatever you want;
+    use padding-dir instead of height/width because it's adaptable o screen size
 } */
  /* .element-name and not the tag */
  /* can't use transition w/ the pseudo class */
@@ -22,6 +23,22 @@
 
 }
 
+.subscribe-button-p {
+    background-color: rgb(255, 17, 77);
+    color: white;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity .15s;
+    vertical-align: top;
+
+}
+
 .subscribe-button:active {
     opacity: 0.55;
     
@@ -29,14 +46,17 @@
 .join-button {
     background-color: azure;
     color: rgb(0, 162, 191);
-    height: 40px;
-    width: 65px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
     border-radius: 2px;
     border-color: rgb(0, 162, 191);
     border-style: solid;
     border-width: 1px;
     cursor: pointer;
     margin-right: 10px;
+    vertical-align: top;
     transition: background-color .15s, color .15s;
 }
 
@@ -51,11 +71,14 @@
     background-color: rgb(29, 155, 240);
     color: aliceblue;
     border: none;
-    height: 40px;
-    width: 75px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    padding-left: 15px;
     border-radius: 30px;
     font-weight: bold;
     font-size: 15px;
+    vertical-align: top;
     transition: box-shadow .15s;
 }
 

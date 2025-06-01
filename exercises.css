@@ -4,8 +4,11 @@
     font-weight: bold;
     font-size: medium;
     border: none;
-    height: 50px;
-    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: top;
     cursor: pointer;
     transition: opacity .15s, height 1s;
 }
@@ -22,10 +25,13 @@
     border: none;
     background-color: rgb(238, 238, 2);
     border-radius: 30px;
-    height: 50px;
-    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: medium;
     cursor: pointer;
+    vertical-align: top;
     transition: background-color .15s, opacity .15s;
 }
 
@@ -42,8 +48,11 @@
     border: none;
     border-radius: 7px;
     background-color: rgb(41, 190, 43);
-    height: 40px;
-    width: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: top;
     font-size: medium;
     color: white;
     font-weight: bold;
@@ -62,8 +71,11 @@
 .boot-strap-get-started {
     border: none;
     border-radius: 5px;
-    height: 50px;
-    width: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: top;
     background-color: rgb(153, 70, 189);
     color: white;
     font-size: medium;
@@ -82,8 +94,11 @@
     border: 2px solid;
     color: gray;
     border-radius: 5px;
-    height: 50px;
-    width: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: top;
     font-weight: bold;
     font-size: medium;
     cursor: pointer;
@@ -102,9 +117,12 @@
 
 .linkedin-apply {
     border: none;
-    height: 40px;
-    width: 250px;
-    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    vertical-align: top;
+    border-radius: 25px;
     background-color: rgb(9, 115, 180);
     font-weight: bold;
     font-size: medium;
@@ -119,8 +137,11 @@
 }
 .linkedin-save {
     border: 2px solid;
-    height: 40px;
-    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: top;
     border-radius: 20px;
     background-color: white;
     font-weight: bold;
@@ -152,8 +173,11 @@ a:hover {
     border: none;
     background-color: rgb(238, 238, 2);
     border-radius: 30px;
-    height: 30px;
-    width: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: top;
     cursor: pointer;
     transition: background-color .15s, opacity .15s;
 }
@@ -169,8 +193,11 @@ a:hover {
     border: none;
     background-color: rgb(238, 159, 2);
     border-radius: 30px;
-    height: 30px;
-    width: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    vertical-align: top;
     cursor: pointer;
     transition: background-color .15s, opacity .15s;
 }
@@ -180,6 +207,44 @@ a:hover {
 }
 .buy-now:active {
     opacity: .75;
+}
+
+button {
+    margin: 10px;
+}
+
+.stretch {
+    background-color: green;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: padding 1s;
+}
+.stretch:hover {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+.shadow-click {
+    background-color: green;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.shadow-click:active {
+    
+    box-shadow: 10px 10px 15px rgba(0,0,0, .3);
 }
 
 /* remind me:
