@@ -6,6 +6,7 @@
     border: none;
     height: 50px;
     width: 150px;
+    cursor: pointer;
     transition: opacity .15s, height 1s;
 }
 
@@ -24,14 +25,160 @@
     height: 50px;
     width: 200px;
     font-size: medium;
+    cursor: pointer;
     transition: background-color .15s, opacity .15s;
 }
 
 .amazon-cart-button:hover {
     background-color: rgb(255, 208, 0);
+    
 }
 
 .amazon-cart-button:active {
+    opacity: .75;
+}
+
+.github-button {
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(41, 190, 43);
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .15s, box-shadow .15s;
+}
+
+.github-button:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0, .15);
+}
+
+.github-button:active {
+    background-color: rgb(35, 158, 37);
+}
+
+.boot-strap-get-started {
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 130px;
+    background-color: rgb(153, 70, 189);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .15s;
+}
+
+.boot-strap-get-started:hover {
+    background-color: rgb(108, 49, 134);
+    
+}
+
+
+.bootstrap-download {
+    border: 2px solid;
+    color: gray;
+    border-radius: 5px;
+    height: 50px;
+    width: 130px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    transition: background-color .15s, color .15s, border .15s;
+}
+
+.bootstrap-download:hover {
+    background-color: rgb(108, 49, 134);
+    color: white;
+    border: none;
+}
+
+.bootstrap-download:active {
+    box-shadow: 5px 5px 10px rgba(0,0,0, .15);
+}
+
+.linkedin-apply {
+    border: none;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgb(9, 115, 180);
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+    transition: background-color .15s;
+}
+
+.linkedin-apply:hover {
+    background-color: rgb(6, 83, 132);
+    
+}
+.linkedin-save {
+    border: 2px solid;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(9, 105, 165);
+    cursor: pointer;
+    transition: background-color .15s, border .15s;
+}
+
+.linkedin-save:hover {
+    background-color: rgba(103, 195, 253, 0.3);
+    border: solid;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: rgb(174, 114, 2);
+}
+
+.price-tag{
+    color: green;
+    font-weight: bold;
+}
+
+.amazon-cart-button-1 {
+    border: none;
+    background-color: rgb(238, 238, 2);
+    border-radius: 30px;
+    height: 30px;
+    width: 110px;
+    cursor: pointer;
+    transition: background-color .15s, opacity .15s;
+}
+.amazon-cart-button-1:hover {
+    background-color: rgb(255, 208, 0);
+
+}
+.amazon-cart-button-1:active {
+    opacity: .75;
+}
+
+.buy-now {
+    border: none;
+    background-color: rgb(238, 159, 2);
+    border-radius: 30px;
+    height: 30px;
+    width: 110px;
+    cursor: pointer;
+    transition: background-color .15s, opacity .15s;
+}
+.buy-now:hover {
+    background-color: rgb(238, 116, 2);
+
+}
+.buy-now:active {
     opacity: .75;
 }
 
