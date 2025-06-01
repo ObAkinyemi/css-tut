@@ -1,22 +1,68 @@
-/* selector {
+/* selector: pseudo class {
     property: value;
     border-radius: rounded corners;
     cursor: gets you to change the cursor to 
 } */
  /* .element-name and not the tag */
+ /* can't use transition w/ the pseudo class */
 .subscribe-button {
     background-color: rgb(255, 17, 77);
     color: white;
     border: none;
-    height: 50px;
+    height: 40px;
     width: 110px;
     border-radius: 2px;
-    cursor: pointer; 
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity .15s;
+}
+
+.subscribe-button:hover {
+    opacity: .75;
+
+}
+
+.subscribe-button:active {
+    opacity: 0.55;
+    
 }
 .join-button {
     background-color: azure;
     color: rgb(0, 162, 191);
-    height: 50px;
+    height: 40px;
     width: 65px;
     border-radius: 2px;
+    border-color: rgb(0, 162, 191);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color .15s, color .15s;
+}
+
+.join-button:hover {
+    background-color: rgb(0, 162, 191);
+    color: azure;
+}
+.join-button:active {
+    opacity: .75;
+}
+.tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: aliceblue;
+    border: none;
+    height: 40px;
+    width: 75px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow .15s;
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
+}
+
+.tweet-button:active {
+    opacity: .65;
 }
