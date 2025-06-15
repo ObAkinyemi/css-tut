@@ -252,3 +252,27 @@ button {
     You have days to work on this.
     Enjoy the process of learning and not just looking at money or a result.
      */
+
+
+img {
+    vertical-align: middle;
+}
+.img-1 {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.img-2 {
+    width: 125px;
+    height: 125px;
+    object-fit:cover;
+    object-position: left;
+}
+
+.img-3 {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 1000px;
+}
