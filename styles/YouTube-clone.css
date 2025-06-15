@@ -1,7 +1,112 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-block {
+    display: block;
+    height: 50px;
+}
+
+.menu-box {
+    margin: 10px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yt-logo {
+    height: 18px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
 .thumbnail {
     width: 300px;
+    display: block;
+}
+
+.search-block {
+    display: inline-block;
+    border-radius: 2px;
+    border-style: solid;
+    padding: 0px;
+    border-width: 1px;
+    margin-right: 10px;
 }
 
 .search-box {
-    margin: 10px;
+    /* margin: 10px; */
+    width: 125px;
+    margin-right: 0%;
+    vertical-align: middle;
+    border-radius: 2px;
+    border-style: none;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search-logo {
+    height: 21px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: middle;
+    background-color: rgb(0,0,0,.15);
+    margin-left: 0%;
+    border-left: 1px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+}
+
+.search-voice {
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+    background-color: rgb(0,0,0,.05);
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.upload-icon {
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.yt-apps {
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.notifs {
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.channel {
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.video-title {
+    /* width: 350px; */
+}
+
+.video-preview {
+    width: 300px;
+    margin-right: 12px;
+    display: inline-block;
+    vertical-align: top;
 }
