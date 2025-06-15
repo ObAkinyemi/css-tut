@@ -1,0 +1,41 @@
+p{
+    font-family: Arial;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.video-stats {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-top: 0;
+}
+
+.description {
+    color: rgb(96, 96, 96);
+    width: 300px;
+    font-size: 15px;
+}
+
+.red-block {
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.store-link {
+    color: white;
+    text-decoration: none;
+}
+
+.store-link:hover {
+    text-decoration: underline;
+}
