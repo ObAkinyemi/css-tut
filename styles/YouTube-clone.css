@@ -21,10 +21,6 @@ p {
     margin-right: 20px;
 }
 
-.thumbnail {
-    width: 300px;
-    display: block;
-}
 
 .search-block {
     display: inline-block;
@@ -100,37 +96,49 @@ p {
     vertical-align: middle;
 }
 
+
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
 .video-title {
     /* width: 350px; */
     margin-top: 0;
 }
 
-.video-preview {
-    width: 300px;
-    margin-right: 12px;
-    display: inline-block;
-    vertical-align: top;
+.thumbnail {
+    width: 100%;
+}
+
+.video-info-grid {
     margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .pfp-row {
-    display: inline-block;
+    display: grid;
 }
 .yt-pfp {
-    display: inline-block;
+    display: grid;
     width: 40px;
     vertical-align: top;
     border-radius: 100%;
 
 }
 .video-desc {
-    display: inline-block;
+    display: grid;
     width: 230px;
     vertical-align: top;
 
 }
 .vid-desc-bot-half {
     margin-top: 10px;
+    background-color: aqua;
 }
 
 .video-author {

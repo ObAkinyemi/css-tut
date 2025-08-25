@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Grid Practice</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div style="
+            display: grid;
+            grid-template-columns: 100px 200px;">
+            <div style="background-color: lightblue;">Div 1
+                <p>text</p>
+            </div>
+            <div style="background-color: lightpink;">Div 2
+                <p>text</p>
+
+            </div>
+
+        </div>
+
+    <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 200px 100px;">
+            <div style="background-color: lightblue;">100px
+                <p>text</p>
+            </div>
+            <div style="background-color: lightpink;">200px
+                <p>text</p>
+
+            </div>
+            <div style="background-color: lightpink;">100px
+                <p>text</p>
+
+            </div>
+            <div style="background-color: lightpink;">100px
+                <p>Wraps around, b/c there's 3 columns in the grid-template-columns element and 4 divs in the div.</p>
+
+            </div>
+
+
+
+        </div>
+            <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 1fr 2fr 1fr">
+            <div style="background-color: lightblue;">100px
+                <p>text</p>
+            </div>
+            <div style="background-color: lightpink;">1fr
+                <p>free space on the page to fill up the column</p>
+            </div>
+            <div style="background-color: lightblue;">2fr
+                <p>double the free space on the page of 1fr to fill up the column</p>
+            </div>
+            <div style="background-color: lightblue;">1fr
+                <p>free space on the page to fill up the column</p>
+            </div>
+        </div>
+
+    <div style="
+            margin-top: 30px;
+            display: grid;
+            height: 200px;
+            column-gap: 20px;
+            row-gap: 40px;
+            grid-template-columns: 1fr 1fr 1fr;">
+            
+            <div style="background-color: lightpink;">100px
+                <p>text</p>
+
+            </div>
+            <div style="background-color: lightblue;">100px
+                <p>text</p>
+            </div>
+            <div style="background-color: lightpink;">200px
+                <p>text</p>
+
+            </div>
+            <div style="background-color: lightblue;">100px
+                <p>text</p>
+            </div>
+            <div style="background-color: lightpink;">200px
+                <p>text</p>
+                
+            </div>
+            
+            <div style="background-color: lightblue;">100px
+                <p>text</p>
+            </div>
+    </div>
+
+
+
+        <script src="" async defer></script>
+    </body>
+</html>
